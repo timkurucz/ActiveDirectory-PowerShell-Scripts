@@ -1,4 +1,4 @@
-# Active Directory Reporting
+# Active Directory PowerShell Scripts
 
 This repository is full of PowerShell scripts I've put together to query Active Directory and return reports.
 
