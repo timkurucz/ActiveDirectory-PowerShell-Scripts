@@ -1,4 +1,4 @@
-# Active Directory Reporting
+# Active Directory PowerShell Scripts
 
 This repository is full of PowerShell scripts I've put together to query Active Directory and return reports.
 
@@ -27,6 +27,24 @@ tkurucz |
 jsmith2 |
 gbread |
 
+### FindUserByEmail.ps1
+
+Find a user by email address.  The script will take a CSV input file of email addresses and return the following fields from Active Directory:
+
+- Name
+- Logon ID (samAccountName)
+- Email Address
+- If account is enabled or disabled
+- Office name
+- State
+- Country
+
+**Note:** File format should match the below.
+Email |
+-------- |
+hey@timkurucz.com |
+tim.kurucz@outlook.com |
+ginger.bread@gmail.com |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
