@@ -27,3 +27,4 @@ ForEach ($user in (Import-Csv -Path $input)) {
 }
 ""
 Write-Host "Reached end of input file." -ForegroundColor Green
+Write-Host "Output file can be found here: $outputPath\$outputName.csv" -ForegroundColor Green
