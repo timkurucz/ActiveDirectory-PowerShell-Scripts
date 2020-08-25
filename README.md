@@ -20,6 +20,28 @@ Get a full listing of all users in an Active Directory group.  The script will a
 - If account is enabled or disabled
 - Canonical Name `(domain.com/users/someuser/username)`
 
+### ADGroup-UserAdd.ps1
+
+Add a list of users by, logon ID, to a specific Active Directory group.
+
+**Note:** File format should match the below.
+Username |
+-------- |
+tkurucz |
+jsmith2 |
+gbread |
+
+### ADGroup-UserRemove.ps1
+
+Remove a list of users, by logon ID, from a specific Active Directory group.
+
+**Note:** File format should match the below.
+Username |
+-------- |
+tkurucz |
+jsmith2 |
+gbread |
+
 ### FindUserByEmail.ps1
 
 Find a user by email address.  The script will take a CSV input file of email addresses and return the following fields from Active Directory:
