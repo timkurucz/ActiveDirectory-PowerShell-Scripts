@@ -9,7 +9,7 @@ $adGroup = Read-Host "Enter AD Group"
 
 #Get output information
 $output = Read-Host "Output CSV location"
-$outputName = "AccountLookup_Output_$(get-date -f yyyy-MM-dd_HHmm)"
+$outputName = "$adGroup Users_$(get-date -f yyyy-MM-dd_HHmm)"
 
 #Let user know script is running
 Write-Host "Script running..." -ForegroundColor Yellow
